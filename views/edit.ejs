@@ -1,0 +1,44 @@
+<%- include('./templates/header') -%>
+<div id="body">
+  <div class="container-xl">
+    <div class="table-responsive">
+      <div class="table-wrapper">
+        <div class="table-title">
+          <div class="row">
+            <div class="col-sm-5">
+              <h2>Edit <b>Data</b></h2>
+            </div>
+          </div>
+        </div>
+        <form method="POST" autocomplete="off">
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Fullname</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Cahyo Dwi Putro" value="<%= page_data.fullname %>" required />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="username@domain.com" value="<%= page_data.email %>" required />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword" name="inputPassword" placeholder="******" required />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-dark mb-2">Submit Data</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
