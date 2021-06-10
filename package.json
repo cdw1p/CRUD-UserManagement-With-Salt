@@ -1,0 +1,27 @@
+{
+  "name": "crud-usermanagement-with-salt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdw1p/CRUD-UserManagement-With-Salt.git"
+  },
+  "author": "cdw1p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdw1p/CRUD-UserManagement-With-Salt/issues"
+  },
+  "homepage": "https://github.com/cdw1p/CRUD-UserManagement-With-Salt#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-minify-html-2": "^1.0.1",
+    "path": "^0.12.7"
+  }
+}
