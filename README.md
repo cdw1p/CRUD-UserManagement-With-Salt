@@ -14,9 +14,9 @@ $ node server.js
 - [x] CRUD : Create, Read, Delete, Update Data
 
 ## Screenshoot
-| Home	| Add Data | Validate Data |
+| Home	| Add / Edit Data | Validate Data |
 | ------------ | ------------ | ------------ |
-|![Home](/screenshoot/home.png)|![Add](/screenshoot/add-new.png)|![Validate](/screenshoot/validate.png)|
+|![Home](/screenshoot/home.png)|![Add/Edit](/screenshoot/add-new.png)|![Validate](/screenshoot/validate.png)|
 
 | Database Schema |
 | ------------ |
